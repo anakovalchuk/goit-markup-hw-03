@@ -45,7 +45,7 @@ p {
     }
 
 .header {
-    padding: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -56,6 +56,8 @@ p {
 
 .header-nav {
     display: flex;
+    align-items: center;
+    padding: 24px 0;
     }
 
 .nav-list {
@@ -114,7 +116,7 @@ p {
 
 .hero {
     background: #2e2f42;
-    padding: 188px 472px 292px 472px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -125,7 +127,9 @@ p {
     text-align: center;
     color: #fff;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
+    display: flex;
+    margin: 0 auto;
 }
 
 .hero-btn {
@@ -135,7 +139,7 @@ p {
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
-    display: flex;
+    display: block;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -155,7 +159,7 @@ p {
 
 .about-us {
     padding-top: 120px;
-    padding-bottom: 122px;
+    padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -201,8 +205,8 @@ p {
 
 .team {
     background: #f4f4fd;
-    padding-top: 118px;
-    padding-bottom: 122px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -217,13 +221,12 @@ p {
 }
 
 .container-team {
-    padding: 32px 16px;
+    padding: 32px 0;
     min-width: 232px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;  
 }
 
 .team-list  {
@@ -234,6 +237,8 @@ p {
 .team-item {
     background-color: #fff;
     width: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px; 
+
 }
 
 .team-subtitle {
@@ -243,6 +248,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-descr {
@@ -253,7 +259,7 @@ p {
 }
 
 .portfolio {
-    padding-top: 118px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -262,7 +268,6 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -270,6 +275,7 @@ p {
     min-width: 360px;
     min-height: 120px;
 }
+
 
 .portfolio-title {
     font-weight: 700;
@@ -300,6 +306,7 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-descr {
@@ -328,6 +335,7 @@ p {
     justify-content: flex-start;
     flex-direction: row;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 
